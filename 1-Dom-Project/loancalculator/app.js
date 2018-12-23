@@ -40,7 +40,6 @@ function calculateResults(e) {
     document.querySelector('input[type="submit"]').disabled = true;
     showError('Please check your numbers');
   }
-
 }
 
 function showError(error) {
