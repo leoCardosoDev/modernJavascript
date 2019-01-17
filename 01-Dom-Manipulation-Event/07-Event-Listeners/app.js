@@ -1,11 +1,9 @@
 console.clear()
 /**  EVENT LISTENERS **/
-
 document.querySelector('.clear-tasks').addEventListener('click', onClick)
 function onClick(e) {
     let val;
     val = e;
-
     // Event target Element
     val = e.target
     val = e.target.id
