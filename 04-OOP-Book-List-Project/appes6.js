@@ -132,11 +132,15 @@ document.getElementById('book-list').addEventListener('click', e => {
     // Instanciate UI
     const ui = new UI()
     // Call methode delete book
-    ui.deleteBook(e.target)
-    // Remove from Local Storage
-    Store.removeBook(e.target.parentElement.previousElementSibling.textContent)
-    // Show alert Sucess
-    ui.showAlert('Book Removed', 'success')
+    if(confirm('Are sure this?')){
+        ui.deleteBook(e.target)
+        // Remove from Local Storage
+        Store.removeBook(e.target.parentElement.previousElementSibling.textContent)
+        // Show alert Sucess
+        ui.showAlert('Book Removed', 'success')
+    }
+    
+    
 
     e.preventDefault()
 })
