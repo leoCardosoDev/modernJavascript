@@ -1,6 +1,6 @@
 const http = new easyHTTP
 
-/* 
+
 // Get Posts
 http.get('https://jsonplaceholder.typicode.com/posts', (err, posts) => {
 
@@ -10,11 +10,11 @@ http.get('https://jsonplaceholder.typicode.com/posts', (err, posts) => {
         console.log(posts)
     }
 })
- */
 
 
 
-/* 
+
+
 // Get single Post
 http.get('https://jsonplaceholder.typicode.com/posts/1', (err, post) => {
     if(err){
@@ -23,7 +23,7 @@ http.get('https://jsonplaceholder.typicode.com/posts/1', (err, post) => {
         console.log(post)
     }
 })
- */
+
 
 // Create Data
 const data = {
@@ -31,7 +31,7 @@ const data = {
     body: 'This is a custom post 101'
 }
 
-/* 
+
  // Create Post
  http.post('https://jsonplaceholder.typicode.com/posts', data, (err, post) =>{
      if(err){
@@ -40,9 +40,9 @@ const data = {
          console.log(post)
      }
  })
- */
 
-/* 
+
+
 // Update Data
 http.put('https://jsonplaceholder.typicode.com/posts/1', data, (err, post) => {
     if (err) {
@@ -51,7 +51,7 @@ http.put('https://jsonplaceholder.typicode.com/posts/1', data, (err, post) => {
         console.log(post)
     }
 })
- */
+
 
  // Delet data
  http.delete('https://jsonplaceholder.typicode.com/posts/100', function(err, response){
