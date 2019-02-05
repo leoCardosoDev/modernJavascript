@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Title One",
+        "body": "This is the POST ONE"
+    },
+    {
+        "title": "Title Two",
+        "body": "This is the POST TWO"
+    },
+    {
+        "title": "Title Three",
+        "body": "This is the POST THREE"
+    },
+    {
+        "title": "Title Four",
+        "body": "This is the POST FOUR"
+    }
+]
